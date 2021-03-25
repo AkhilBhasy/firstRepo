@@ -1,0 +1,27 @@
+div{
+    width: 150px;
+    height: 150px;
+}
+
+.div1
+{
+    background-color: brown;
+    position: relative;
+    top: 262px;
+    left: 150px;
+}
+
+.div2
+{
+  background-color: aquamarine;
+  position: absolute;
+  left: 125px;
+  bottom: 125px;  
+}
+.div3
+{
+    background-color: blueviolet;
+    position: absolute;
+    left: 250px;
+    bottom: 250px;
+}

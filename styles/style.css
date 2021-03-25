@@ -1,0 +1,18 @@
+table{
+     border: 1px;
+     width: 100px;
+}
+
+
+.thead{
+    background-color: red;
+}
+.tdata{
+    background-color:green;
+}
+.thead:hover{
+    background-color: yellow;
+}
+.tdata:hover{
+    background-color: blue;
+}

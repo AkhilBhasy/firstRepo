@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Document</title>
+<link rel="stylesheet" href="../styles/style.css">
+    <style>
+        /* internal style.. element wise, class based, id based*/
+        p{
+            color: sienna;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: large;
+        }
+        .demo{
+            background-image: url("../images/mypic.JPG");width: 100px;height: 150px;
+            /*background-color: rgb(140, 189, 218);
+            width: 300px;
+            height: 200px;*/
+        }
+        .mylink{
+            background-color: rgb(62, 59, 201);
+        }
+        .mylink:hover{
+            background-color: red;
+        }
+        #head1{
+           color: brown;
+           font-size: medium;
+           font-family: 'Times New Roman', Times, serif; 
+        }
+       
+
+
+    </style>
+</head>
+
+<body>
+    <!--inline style attribute-->
+    <h1 style="color: rgb(166, 85, 190); text-align: center;">Welcome</h1>
+    <div style="background-color: rgb(40, 212, 114);width: 200px;height: 150px;">
+    </div>
+
+<h1 id="head1">Expertzlab</h1>
+<h1 id="head2">GofreeLab</h1>
+<h1 id="head3">techEhub</h1>
+
+<div class="demo"></div>
+
+<a href="#" class="mylink">click</a>
+
+    <p style="color: rgb(218, 167, 28);">This is a demonstration of how different stylesheets can change
+         the layout of your HTML page. You can change the layout of this page by selecting 
+         different stylesheets in the menu, or by selecting one of the following links
+        </p>
+        <p>
+            This page uses DIV elements to group different sections 
+            of the HTML page. Click here to see how the page looks like with no stylesheet:
+        </p>
+        <p style="color: rgb(19, 211, 61);">
+            Here we will show one HTML page displayed with four different stylesheets. Click on 
+            the "Stylesheet 1", "Stylesheet 2", "Stylesheet 3", "Stylesheet 4" links below to see the different styles
+        </p>
+
+
+
+
+
+        <table >
+            <thead class="thead">
+                <th>ID</th>
+                <th>Name</th>
+                <th>Course</th>
+            </thead>
+            <tr class="tdata">
+                <td>1</td>
+                <td>Akhil</td>
+                <td>MeanStack</td>
+    
+            </tr>
+            <tr class="tdata">
+                <td>2</td>
+                <td>Shinu</td>
+                <td>Data Science</td>
+            </tr>
+            <tr class="tdata">
+                <td>3</td>
+                <td>Sayooj</td>
+                <td>java</td>
+            </tr>
+        </table>
+
+</body>
+
+</html>
